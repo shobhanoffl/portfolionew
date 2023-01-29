@@ -1,0 +1,86 @@
+.wrapper_aboutMe{
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    /* Not Necessary -- \/ */
+    /* margin-left:35vh; */
+    /* padding-left: 5vw; */
+}
+.wrapper_aboutMe2{
+    width: 600px;
+    position: absolute;
+    top: 15vh;
+}
+.lineOne{
+    padding-left: 10px;
+}
+.lineTwo{
+    font-size: 100px;
+    color: #036FFB;
+    text-align: justify;
+    vertical-align: bottom;
+}
+.wrapper_aboutMe img{
+    position: absolute;
+    top: 90px;
+    vertical-align: middle;
+    width: 264px;
+    height: 260px;
+    float: left;
+}
+.lineThreeHead{
+    font-size: 100px;
+    padding-left: 200px;
+    /* Not Neccessary -- \/ */
+    /* vertical-align: super; */
+    /* padding-left: 34%; */
+}
+.intro{
+    display: block;
+    text-align: right;
+    padding-right: 60px;
+}
+.btnGrp{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 1vw;
+    /* padding-right: 170px; */
+}
+.btnItem1{
+    font-size: 25px;
+    color:#000;
+    border: 2px solid #000;
+    background-color: white;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.btnItem1:hover{
+    font-size: 25px;
+    color:#fff;
+    border: 2px solid #000;
+    background-color: #000;
+    padding: 12px 25px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+.btnItem2{
+    font-size: 25px;
+    color:#fff;
+    border: 2px solid #036FFB;
+    background-color: #036FFB;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.btnItem2:hover{
+    font-size: 25px;
+    color:#036FFB;
+    border: 2px solid #036FFB;
+    background-color: white;
+    padding: 12px 25px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}

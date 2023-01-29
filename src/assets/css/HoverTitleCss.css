@@ -1,0 +1,40 @@
+.wrapper_title{
+  /* overflow-x: clip; */
+  /* overflow-clip-margin: 26vh; */
+  /* margin-left:16.5vh; */
+  position: relative;
+  overflow: hidden;
+}
+.scrollTextTitle{
+    margin-left:20vh;
+    font-size: 75vh;
+}
+.scrollingtext{
+  justify-content: center; 
+  align-items: center;
+    animation-name: move;
+    margin-top: 0px;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    /* Not Neccessary -- \/ */
+    /* overflow-anchor: none; */
+    /* display: flex;  */
+  }
+  
+  .scrollingtext:hover {
+    animation-play-state: paused;
+  }
+
+@keyframes move {
+    0% {
+      margin-left: 20vh;
+    }
+    5%{
+      margin-left: 20vh;
+    }
+    100% {
+      margin-left: -350vh;
+    }
+  }

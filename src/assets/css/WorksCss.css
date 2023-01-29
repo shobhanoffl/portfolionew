@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400&display=swap');
+
+html{
+    height: 100%;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+    /* filter: blur(6px); */
+    /* zoom: 125%; */
+  /* -webkit-filter: blur(8px); */
+}
+  
+.total_wrapper_works{
+    /* background: url('../videos/1723017.mp4'); */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper_works{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
+    padding-top: 100px;
+    padding-left: 260px;
+}
+.wrapper_works_desc>*{
+    padding-right: 130px;
+    cursor: pointer;
+}
+.wrapper_works_desc>.workText{
+    margin-top: -26px;
+}
+/* Hover */
+.workText{
+    color: rgb(3, 111, 251);
+}
+.wrapper_works_desc:nth-of-type(1){
+    color: rgba(255, 255, 255, 0.2);
+}
+.wrapper_works_desc:nth-of-type(2){
+    color: rgba(255, 255, 255, 0.2);
+}
+.wrapper_works_desc:nth-of-type(3){
+    color: rgba(255, 255, 255, 0.2);
+}
+.wrapper_works_desc:hover{
+    transition-duration: 3.5s;
+    color: rgb(3, 111, 251);
+}
+.wrapper_works_desc:nth-of-type(1):hover .workText{
+    color: white;
+    text-shadow: 3px 3px 0px rgb(3, 111, 251);
+    transition-duration: 0.3s;
+}
+.wrapper_works_desc:nth-of-type(2):hover .workText{
+    color: white;
+    text-shadow: 3px 3px 0px rgb(3, 111, 251);
+    transition-duration: 0.3s;
+}
+.wrapper_works_desc:nth-of-type(3):hover .workText{
+    color: white;
+    text-shadow: 3px 3px 0px rgb(3, 111, 251);
+    transition-duration: 0.3s;
+}
+
+/* Hover */
+.wrapper_works_desc{
+    vertical-align: text-bottom;
+    font-family: 'Sofia', cursive;
+    padding-left: 20px;
+    display: flex;
+    font-size: 100px;
+    color: rgb(225, 225, 225);
+    /* padding-top: 90px; */
+    /* padding-bottom: 45px; */
+    /* justify-content: center; */
+}
+
+.getInT{
+    display: block;
+    position: absolute;
+    right: 55px;
+    bottom: 45px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 22px;
+    padding: 6px 15px;
+    border-radius: 25px;
+    color: rgb(3, 111, 251);
+    font-weight: 500;
+    background-color: white;
+}
+.getInT:hover{
+    /* text-decoration: overline; */
+    background-color: rgb(3, 111, 251);
+    color: white;
+    padding: 6px 15px;
+    cursor: none;
+    transition-duration: 1.5s;
+}
+.worksFooter{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2px;
+    color:white;
+    font-size: 10px;
+    font-weight: 200;
+}
+.worksFooter a{
+    color: white;
+}
